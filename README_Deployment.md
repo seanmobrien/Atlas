@@ -78,7 +78,7 @@ would require a manual weekly update of the `IP_RESTRICTION_SETTINGS` variable, 
 
 ### Terraform Configuration
 
-- You will also need to register any relevant resource providers. See notes in `.\terraform\main.tf`.
+- You will also need to register any relevant resource providers. See notes in `.\terraform\core\main.tf`.
 - All Atlas infrastructure is controlled via terraform scripts. If any specific naming or configuration changes are required for your installation, such changes should be made to the terraform scripts in 
 a fork of the repository - changing them manually in Azure will lead to the changes being reverted on the next deployment to that environment.
 
